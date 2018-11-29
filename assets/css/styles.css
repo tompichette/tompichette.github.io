@@ -475,29 +475,13 @@ a:focus {
 .process-section .item {
   position: relative;
   max-width: 800px;
-  padding: 30px;
-}
-.process-section .item:last-child {
-  margin-bottom: 0;
-}
-.process-section .item.item-reversed .profile-holder {
-  left: inherit;
-  right: 30px;
-}
-.process-section .item.item-reversed .quote {
-  margin-left: 0;
-  margin-right: 0;
+  padding: 10px;
+  margin: 0;
 }
 .process-section .profile-holder {
   position: absolute;
   left: 30px;
   text-align: center;
-}
-.process-section .profile-image {
-  display: inline-block;
-  margin: 0 auto;
-  width: 80px;
-  height: 80px;
 }
 .process-section .quote {
   background: rgba(0, 0, 0, 0.2);
@@ -934,3 +918,5 @@ a:focus {
     top: inherit;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */

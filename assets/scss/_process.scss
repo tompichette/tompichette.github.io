@@ -16,22 +16,9 @@
     .item {
         position: relative;
         max-width: 800px;
-        padding: 30px;
-        &:last-child {
-            margin-bottom:0;
-        }
-
-        &.item-reversed {
-            .profile-holder {
-                left: inherit;
-                right: 30px;
-            }
-            .quote {
-                margin-left: 0;
-                margin-right: 0;
-                }
-            }
-        }
+        padding: 10px;
+        margin: 0;
+    }
 
         .profile-holder {
             position: absolute;
@@ -40,12 +27,6 @@
 
         }
 
-        .profile-image {
-            display: inline-block;
-            margin: 0 auto;
-            width: 80px;
-            height: 80px;
-        }
         .quote {
             background: rgba(0, 0, 0, 0.2);
             color: #fff;

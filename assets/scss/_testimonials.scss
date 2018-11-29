@@ -1,0 +1,64 @@
+/* ======= process Section ======= */
+.process-section {
+    background:$color-primary;
+    @include background-size(cover);
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    .section-title {
+        margin: 0;
+        margin-bottom: 30px;
+        font-size: 36px;
+        font-weight:300;
+        color: #fff;
+    }
+
+    .item {
+        position: relative;
+        max-width: 800px;
+        padding: 30px;
+        &:last-child {
+            margin-bottom:0;
+        }
+
+        &.item-reversed {
+            .profile-holder {
+                left: inherit;
+                right: 30px;
+            }
+            .quote {
+                margin-left: 0;
+                margin-right: 0;
+                }
+            }
+        }
+
+        .profile-holder {
+            position: absolute;
+            left: 30px;
+            text-align: center;
+
+        }
+
+        .profile-image {
+            display: inline-block;
+            margin: 0 auto;
+            width: 80px;
+            height: 80px;
+        }
+        .quote {
+            background: rgba(0, 0, 0, 0.2);
+            color: #fff;
+            margin-left: 0;
+            border-left: none;
+            margin-bottom: 0;
+            font-size: 14px;
+            min-height: 80px;
+            @include border-radius(4px);
+            position: relative;
+            padding:30px;
+        }
+        .quote-source {
+            color: rgba(0, 0, 0, 0.6);
+        }
+}

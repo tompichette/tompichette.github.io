@@ -11,12 +11,16 @@
         font-weight:300;
         margin-bottom: 30px;
     }
-
+    .submit-button {
+      display: flex;
+      justify-content: center;
+    }
 }
+
+
 
 .contact-content {
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 60px;
 }
-

@@ -270,6 +270,68 @@ a {
 	padding: 15px;
 }
 
+/* ======= Page Header ======= */
+.header-page {
+    position: fixed;
+    width: 100%;
+    z-index: 30;
+    height: 60px;
+    @include transition (none);
+    background: #fff;
+    @include box-shadow(0 0 4px rgba(0, 0, 0, 0.5));
+        a {
+            color: $text-color;
+
+        }
+        .logo {
+            color: $text-color;
+            padding-top: 12px;
+        }
+        .main-nav .nav .nav-link {
+            color: $text-grey;
+            &:hover {
+	            color: darken($text-grey, 5%);
+            }
+        }
+        .main-nav .nav .nav-link.active {
+            color: $text-color;
+            border-bottom: 4px solid $color-primary;
+        }
+
+    a {
+        @include transition (none);
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .logo {
+        margin: 0;
+        display: inline-block;
+        float: left;
+        font-size: 26px;
+        padding-top: 15px;
+        .logo-icon-wrapper {
+            margin-right: 3px;
+            position:relative;
+            display: inline-block;
+            top: -3px;
+        }
+
+        .logo-icon {
+            width: 30px;
+            height: 30px;
+        }
+        .highlight {
+            font-weight:800;
+        }
+    }
+}
+@media (max-width: 490px) {
+  .header-page .logo {
+    font-size: 20px;
+  }
+}
+
 /* ====== Footer ====== */
 .footer {
     background: darken($text-color, 15%);

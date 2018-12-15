@@ -340,7 +340,32 @@ a {
     a {
         color: $color-primary;
     }
-    .fa-heart {
-        color: $color-pink;
-    }
+		.fa-linkedin {
+			color: $linkedin
+		}
+		.fa-facebook {
+			color: $facebook
+		}
+		.fa-instagram {
+			color: $instagram
+		}
+}
+
+/* ====== Carousel ====== */
+.carousel {
+	.carousel-indicators li {
+	  background-color: #999;
+	  background-color: rgba(70,70,70,.25);
+	}
+	.carousel-indicators .active {
+  background-color: #009DE3;
+	}
+	.carousel-control-next-icon {
+		background-color: #999;
+		background-color: rgba(70,70,70,.25);
+	}
+	.carousel-control-prev-icon {
+		background-color: #999;
+		background-color: rgba(70,70,70,.25);
+	}
 }

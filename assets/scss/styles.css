@@ -79,7 +79,15 @@ a:focus { text-decoration: none; }
 /* ====== Footer ====== */
 .footer { background: #26282c; color: rgba(255, 255, 255, 0.6); padding: 15px 0; }
 .footer a { color: #009DE3; }
-.footer .fa-heart { color: #EA5395; }
+.footer .fa-linkedin { color: #1E6FBA; }
+.footer .fa-facebook { color: #3b5998; }
+.footer .fa-instagram { color: #e4405f; }
+
+/* ====== Carousel ====== */
+.carousel .carousel-indicators li { background-color: #999; background-color: rgba(70, 70, 70, 0.25); }
+.carousel .carousel-indicators .active { background-color: #009DE3; }
+.carousel .carousel-control-next-icon { background-color: #999; background-color: rgba(70, 70, 70, 0.25); }
+.carousel .carousel-control-prev-icon { background-color: #999; background-color: rgba(70, 70, 70, 0.25); }
 
 /* ======= Hero Section ======= */
 .hero-section { min-height: 600px; max-height: 600px; background: #494d55; position: relative; }
@@ -149,7 +157,7 @@ a:focus { text-decoration: none; }
 .pricing-wrapper .item-inner { color: #fff; padding: 30px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; background: #009DE3; height: 100%; }
 .pricing-wrapper .item-inner a { color: rgba(0, 0, 0, 0.4); }
 .pricing-wrapper .item-1 .item-inner { background: #75c181; }
-.pricing-wrapper .item-2 .item-inner { background: #006897; }
+.pricing-wrapper .item-2 .item-inner { background: #009DE3; }
 .pricing-wrapper .item-3 .item-inner { background: #e34600; }
 .pricing-wrapper .item-heading { font-weight: 800; font-size: 18px; margin: 0; min-height: 60px; }
 .pricing-wrapper .item-heading-desc { font-size: 14px; font-weight: normal; display: inline-block; line-height: 3; }

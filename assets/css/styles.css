@@ -203,8 +203,8 @@ a:focus { text-decoration: none; }
   .hero-carousel .carousel-inner .item-content-inner { padding-top: 100px; }
   .hero-section .figure-holder .figure-image { width: inherit; bottom: 0; top: inherit; right: inherit; left: 15px; max-width: 320px; }
   .technologies li { margin-bottom: 15px; }
-  .members-wrapper .item { margin-bottom: 30px; }
-  .members-wrapper .item:last-child { margin-bottom: 0; }
+  .cdt-wrapper .item { margin-bottom: 30px; }
+  .cdt-wrapper .item:last-child { margin-bottom: 0; }
   .hero-carousel { height: 660px; }
   .hero-section .carousel-inner { height: 660px; }
   .hero-carousel .carousel-inner .item { height: 660px; }

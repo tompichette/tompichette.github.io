@@ -1,5 +1,5 @@
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
     .navbar-collapse {
         border-top: none;
         @include box-shadow(none);
@@ -10,17 +10,17 @@
         background: rgba(darken($text-color, 10%), 0.9);
         z-index: 40;
     }
-    
+
     .header.header-scrolled .main-nav .nav .nav-link.active{
         color: $color-primary;
         border: none;
     }
 
-    
+
     .main-nav .navbar-collapse .nav-item {
         margin-right: 0;
     }
-    
+
     .main-nav .navbar-collapse .nav-item a {
         text-align: center;
     }
@@ -31,7 +31,7 @@
     .hero-carousel .carousel-inner .heading {
         font-size: 26px;
     }
-    
+
     .hero-carousel .carousel-inner .item-content-inner {
         padding-top: 100px;
     }
@@ -47,8 +47,8 @@
     .technologies li {
         margin-bottom: 15px;
     }
-    
-    .members-wrapper .item {
+
+    .cdt-wrapper .item {
         margin-bottom: 30px;
         &:last-child {
             margin-bottom: 0;
@@ -60,11 +60,11 @@
     .hero-section .carousel-inner {
         height: 660px;
     }
-    
+
     .hero-carousel .carousel-inner .item {
         height: 660px;
     }
-    
+
     .testimonials-section .item .profile-image {
         width: 60px;
         height: 60px;
@@ -76,13 +76,13 @@
     .testimonials-section .item.item-reversed .quote {
         margin-right: 85px;
     }
-    
+
 
 
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     .feature-nav {
         text-align: left;
         padding-left: 30px;
@@ -97,7 +97,7 @@
         max-width: 300px;
         padding-top: 120px;
     }
-    
+
 
 
 }
@@ -121,7 +121,7 @@
         max-width: 500px;
     }
 
-    
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -132,5 +132,3 @@
         top: inherit;
     }
 }
-
-

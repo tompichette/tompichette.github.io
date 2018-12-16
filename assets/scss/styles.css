@@ -1,3 +1,4 @@
+/* ======= Base ======= */
 body { font-family: 'Open Sans', arial, sans-serif; color: #494d55; font-size: 14px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 p { margin-bottom: 15px; line-height: 1.5; }
@@ -134,7 +135,7 @@ a:focus { text-decoration: none; }
 .process-section .quote { background: rgba(0, 0, 0, 0.2); color: #fff; margin-left: 0; border-left: none; margin-bottom: 0; font-size: 14px; min-height: 80px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; position: relative; padding: 30px; }
 .process-section .quote-source { color: rgba(0, 0, 0, 0.6); }
 
-/* ======= benefits Section ======= */
+/* ======= Benefits Section ======= */
 .benefits-section { padding-top: 90px; padding-bottom: 90px; }
 .benefits-section .section-title { margin: 0; margin-bottom: 15px; font-size: 36px; font-weight: 300; }
 .benefits-section .intro { color: #a2a6af; font-size: 16px; max-width: 760px; margin: 0 auto; margin-bottom: 60px; }
@@ -167,7 +168,7 @@ a:focus { text-decoration: none; }
 .pricing-wrapper a.btn { background: rgba(0, 0, 0, 0.2); color: #fff; }
 .pricing-wrapper a.btn:hover { background: rgba(0, 0, 0, 0.4); }
 
-/* ======= Team Section ======= */
+/* ======= CDT Section ======= */
 .cdt-section { padding-top: 90px; padding-bottom: 90px; background: #f5f5f5; }
 .cdt-section .section-title { margin: 0; margin-bottom: 15px; font-size: 36px; font-weight: 300; }
 .cdt-section .intro { color: #a2a6af; font-size: 16px; max-width: 760px; margin: 0 auto; margin-bottom: 60px; }
@@ -227,6 +228,7 @@ a:focus { text-decoration: none; }
   .hero-section .figure-holder .figure-image { width: 420px; bottom: inherit; top: 130px; }
   .hero-carousel .carousel-inner .item-content-inner { max-width: 500px; } }
 @media (min-width: 1200px) { .hero-section .figure-holder .figure-image { width: 570px; bottom: 0; top: inherit; } }
+/* ======= Callout Section ======= */
 .callout-dark { padding-top: 50px; padding-bottom: 50px; color: #f5f5f5; background-color: #494d55; }
 .callout-dark h1, .callout-dark h2, .callout-dark h3, .callout-dark h4 { font-weight: 300; line-height: 1.4; }
 .callout-dark p { color: #a2a6af; font-size: 17px; }

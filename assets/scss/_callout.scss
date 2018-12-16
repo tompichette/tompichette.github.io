@@ -1,0 +1,23 @@
+.callout-dark {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: $smoky-white;
+	background-color: $text-color;
+	h1,
+	h2,
+	h3,
+	h4 {
+		font-weight: 300;
+		line-height: 1.4;
+	}
+	p {
+		color: $text-grey;
+		font-size: 17px;
+	}
+}
+
+.callout-dark:hover {
+	background-color: darken($text-color, 15%);
+	cursor:pointer;
+	@include transition (all 0.4s ease-in-out);
+}

@@ -14,21 +14,22 @@ a:focus { text-decoration: none; }
 .btn-cta, a.btn-cta { font-weight: bold; font-size: 16px; padding: 10px 30px; }
 
 .btn-primary { background: #009DE3; border: 1px solid #009DE3; color: #fff; }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.hover { background: #008bca; color: #fff; border: 1px solid #008bca; }
+.btn-primary.active, .btn-primary.hover, .btn-primary:active, .btn-primary:focus, .btn-primary:hover { background: #008bca; color: #fff; border: 1px solid #008bca; }
 
 .carousel-fade .carousel-inner .item { transition-property: opacity; }
-.carousel-fade .carousel-inner .item, .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right { opacity: 0; }
+.carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right, .carousel-fade .carousel-inner .item { opacity: 0; }
 .carousel-fade .carousel-inner .active, .carousel-fade .carousel-inner .next.left, .carousel-fade .carousel-inner .prev.right { opacity: 1; }
-.carousel-fade .carousel-inner .next, .carousel-fade .carousel-inner .prev, .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right { left: 0; transform: translate3d(0, 0, 0); }
+.carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right, .carousel-fade .carousel-inner .next, .carousel-fade .carousel-inner .prev { left: 0; transform: translate3d(0, 0, 0); }
 .carousel-fade .carousel-control { z-index: 2; }
 
 .carousel-indicators { bottom: 30px; margin-bottom: 0; }
-.carousel-indicators li { background-color: rgba(255, 255, 255, 0.4); border: none; width: 11px; height: 11px; margin: 0; margin-right: 8px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
-.carousel-indicators li.active { background-color: #009DE3; width: 11px; height: 11px; margin: 0; margin-right: 8px; }
+.carousel-indicators li { background-color: rgba(255, 255, 255, 0.4); border: none; width: 11px; height: 11px; margin: 0 8px 0 0; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+.carousel-indicators li.active { background-color: #009DE3; width: 11px; height: 11px; margin: 0 8px 0 0; }
 
 /* ======= Header ======= */
 .header { position: fixed; width: 100%; z-index: 30; height: 60px; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none; }
 .header.header-scrolled { background: #fff; -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
+.header.header-scrolled #logo { color: #009DE3; }
 .header.header-scrolled a { color: #494d55; }
 .header.header-scrolled .logo { color: #009DE3; padding-top: 12px; }
 .header.header-scrolled .logo .logo-icon-wrapper { background: #009DE3; width: 40px; height: 40px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; text-align: center; }
@@ -65,7 +66,8 @@ a:focus { text-decoration: none; }
 /* ======= Page Header ======= */
 .header-page { position: fixed; width: 100%; z-index: 30; height: 60px; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none; background: #fff; -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
 .header-page a { color: #494d55; }
-.header-page .logo { color: #494d55; padding-top: 12px; }
+.header-page .logo { padding-top: 12px; }
+.header-page #logo { color: #009DE3; }
 .header-page .main-nav .nav .nav-link { color: #a2a6af; }
 .header-page .main-nav .nav .nav-link:hover { color: #9499a3; }
 .header-page .main-nav .nav .nav-link.active { color: #494d55; border-bottom: 4px solid #009DE3; }

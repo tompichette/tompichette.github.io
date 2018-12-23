@@ -2,7 +2,7 @@
 
 .cdt-section {
 	padding-top: 90px;
-	padding-bottom: 90px;
+	padding-bottom: 60px;
 	background: $smoky-white;
 
 	.section-title {
@@ -11,15 +11,21 @@
 		font-weight: 300;
 	}
 
+	.section-subtitle {
+		margin: 0 0 15px;
+		font-size: 28px;
+		font-weight: 300;
+	}
+
 	.intro {
 		color: $text-grey;
 		font-size: 16px;
 		max-width: 760px;
-		margin: 0 auto 60px;
+		margin: 0 auto 30px;
 	}
 
 	.story {
-		margin: 0 auto 60px;
+		margin: 0 auto 30px;
 		max-width: 800px;
 	}
 

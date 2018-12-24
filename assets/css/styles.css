@@ -338,19 +338,19 @@ a.btn-cta {
     height: 600px;
     background-position: center center; }
   .hero-carousel .carousel-inner .item-1 {
-    background-image: url("../images/cdt/droneTrees.jpg");
+    background-image: url("../images/droneTrees.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
   .hero-carousel .carousel-inner .item-2 {
-    background-image: url("../images/cdt/droneRoof.jpg");
+    background-image: url("../images/droneRoof.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
   .hero-carousel .carousel-inner .item-3 {
-    background-image: url("../images/cdt/droneBelow.jpg");
+    background-image: url("../images/droneBelow.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

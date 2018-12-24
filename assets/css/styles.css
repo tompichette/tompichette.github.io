@@ -134,9 +134,9 @@ a.btn-cta {
         height: 20px;
         margin-right: 0; }
     .header.header-scrolled .main-nav .nav .nav-link {
-      color: #a2a6af; }
+      color: #797f8b; }
       .header.header-scrolled .main-nav .nav .nav-link:hover {
-        color: #9499a3; }
+        color: #494d55; }
     .header.header-scrolled .main-nav .nav .nav-link.active {
       color: #494d55;
       border-bottom: 4px solid #009DE3; }
@@ -249,9 +249,9 @@ a.btn-cta {
   .header-page #logo {
     color: #009DE3; }
   .header-page .main-nav .nav .nav-link {
-    color: #a2a6af; }
+    color: #797f8b; }
     .header-page .main-nav .nav .nav-link:hover {
-      color: #9499a3; }
+      color: #6c727e; }
   .header-page .main-nav .nav .nav-link.active {
     color: #494d55;
     border-bottom: 4px solid #009DE3; }
@@ -375,7 +375,7 @@ a.btn-cta {
     font-size: 36px;
     font-weight: 300; }
   .about-section .intro {
-    color: #a2a6af;
+    color: #797f8b;
     font-size: 16px;
     max-width: 760px;
     margin: 0 auto;
@@ -501,13 +501,13 @@ a.btn-cta {
     font-size: 36px;
     font-weight: 300; }
   .benefits-section .intro {
-    color: #a2a6af;
+    color: #797f8b;
     font-size: 16px;
     max-width: 760px;
     margin: 0 auto;
     margin-bottom: 60px; }
     .benefits-section .intro a {
-      color: #797f8b; }
+      color: #555963; }
       .benefits-section .intro a:hover {
         color: #494d55; }
 
@@ -543,7 +543,7 @@ a.btn-cta {
     font-size: 36px;
     font-weight: 300; }
   .pricing-section .intro {
-    color: #a2a6af;
+    color: #797f8b;
     font-size: 16px;
     max-width: 760px;
     margin: 0 auto 60px; }
@@ -616,7 +616,7 @@ a.btn-cta {
     font-size: 28px;
     font-weight: 300; }
   .cdt-section .intro {
-    color: #a2a6af;
+    color: #797f8b;
     font-size: 16px;
     max-width: 760px;
     margin: 0 auto 30px; }
@@ -835,7 +835,7 @@ a.btn-cta {
     font-weight: 300;
     line-height: 1.4; }
   .callout-dark p {
-    color: #a2a6af;
+    color: #797f8b;
     font-size: 17px; }
 
 .callout-dark:hover {

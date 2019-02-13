@@ -152,7 +152,7 @@ a.btn-cta {
     margin: 0;
     display: inline-block;
     float: left;
-    font-size: 26px;
+    font-size: 24px;
     padding-top: 15px; }
     .header .logo .logo-icon-wrapper {
       margin-right: 3px;
@@ -351,6 +351,12 @@ a.btn-cta {
     background-size: cover; }
   .hero-carousel .carousel-inner .item-3 {
     background-image: url("../images/cdt/droneBelow.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  .hero-carousel .carousel-inner .item-9 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/cdt/utilitiesBanner.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -622,7 +628,7 @@ a.btn-cta {
     margin: 0 auto 30px; }
   .cdt-section .story {
     margin: 0 auto 30px;
-    max-width: 800px; }
+    max-width: 100%; }
   .cdt-section .profile-image {
     width: 120px;
     height: 120px;

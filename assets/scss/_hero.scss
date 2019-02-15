@@ -26,7 +26,6 @@
     }
 }
 
-
 .hero-carousel {
     height: 600px;
     color: #fff;
@@ -52,6 +51,8 @@
 				.item-9 {
 					background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ), url('../images/cdt/utilitiesBanner.jpg');;
 					@include background-size(cover);
+					background-attachment: fixed;
+					background-position: center;
 				}
 
         .heading {

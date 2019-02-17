@@ -363,6 +363,9 @@ a.btn-cta {
     background-size: cover;
     background-attachment: fixed;
     background-position: center; }
+    @media (max-width: 767.98px) {
+      .hero-carousel .carousel-inner .item-9 {
+        background-size: 1600px auto; } }
   .hero-carousel .carousel-inner .heading {
     font-size: 30px;
     line-height: 1.4;

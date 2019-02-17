@@ -53,6 +53,7 @@ a.btn-cta {
     border: 1px solid #008bca; }
 
 .carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
   transition-property: opacity; }
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right,
@@ -67,7 +68,8 @@ a.btn-cta {
 .carousel-fade .carousel-inner .next,
 .carousel-fade .carousel-inner .prev {
   left: 0;
-  transform: translate3d(0, 0, 0); }
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0); }
 .carousel-fade .carousel-control {
   z-index: 2; }
 
@@ -80,13 +82,7 @@ a.btn-cta {
     width: 11px;
     height: 11px;
     margin: 0 8px 0 0;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
     border-radius: 50%;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box; }
     .carousel-indicators li.active {
       background-color: #009DE3;
@@ -107,7 +103,6 @@ a.btn-cta {
   .header.header-scrolled {
     background: #fff;
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
     .header.header-scrolled #logo {
       color: #009DE3; }
@@ -120,13 +115,7 @@ a.btn-cta {
         background: #009DE3;
         width: 40px;
         height: 40px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
         border-radius: 50%;
-        -moz-background-clip: padding;
-        -webkit-background-clip: padding-box;
         background-clip: padding-box;
         text-align: center; }
       .header.header-scrolled .logo .logo-icon {
@@ -186,13 +175,7 @@ a.btn-cta {
       background-color: #fff;
       height: 3px;
       width: 22px;
-      -webkit-border-radius: 1px;
-      -moz-border-radius: 1px;
-      -ms-border-radius: 1px;
-      -o-border-radius: 1px;
       border-radius: 1px;
-      -moz-background-clip: padding;
-      -webkit-background-clip: padding-box;
       background-clip: padding-box; }
       .main-nav .navbar-toggler .icon-bar + .icon-bar {
         margin-top: 4px; }
@@ -240,7 +223,6 @@ a.btn-cta {
   -o-transition: none;
   background: #fff;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
   .header-page a {
     color: #494d55; }
@@ -339,33 +321,26 @@ a.btn-cta {
     background-position: center center; }
   .hero-carousel .carousel-inner .item-1 {
     background-image: url("../images/cdt/droneTrees.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover; }
   .hero-carousel .carousel-inner .item-2 {
     background-image: url("../images/cdt/droneRoof.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover; }
   .hero-carousel .carousel-inner .item-3 {
     background-image: url("../images/cdt/droneBelow.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover; }
   .hero-carousel .carousel-inner .item-9 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("../images/cdt/utilitiesBanner.jpg");
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/cdt/utilitiesBanner.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
     background-position: center; }
     @media (max-width: 767.98px) {
       .hero-carousel .carousel-inner .item-9 {
-        background-size: auto 100%; } }
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("../images/cdt/utilitiesBanner.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/cdt/utilitiesBanner.jpg");
+        background-size: auto 100%;
+        background-attachment: fixed;
+        background-position: center; } }
   .hero-carousel .carousel-inner .heading {
     font-size: 30px;
     line-height: 1.4;
@@ -437,13 +412,7 @@ a.btn-cta {
     margin-bottom: 0;
     font-size: 14px;
     min-height: 100px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
     border-radius: 4px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     position: relative;
     padding: 15px; }
@@ -461,9 +430,6 @@ a.btn-cta {
 /* ======= process Section ======= */
 .process-section {
   background: #009DE3;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   padding-top: 90px;
   padding-bottom: 90px; }
@@ -489,13 +455,7 @@ a.btn-cta {
     border-left: none;
     margin-bottom: 0;
     font-size: 14px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
     border-radius: 4px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     position: relative;
     padding: 30px; }
@@ -567,13 +527,7 @@ a.btn-cta {
   .pricing-wrapper .item-inner {
     color: #fff;
     padding: 30px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
     border-radius: 8px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     background: #009DE3;
     height: 100%;
@@ -644,13 +598,7 @@ a.btn-cta {
   .cdt-section .item-inner {
     padding: 30px;
     background: #fff;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
     border-radius: 8px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     height: 100%;
     position: relative; }
@@ -670,13 +618,7 @@ a.btn-cta {
       width: 32px;
       height: 32px;
       font-size: 18px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      -o-border-radius: 50%;
       border-radius: 50%;
-      -moz-background-clip: padding;
-      -webkit-background-clip: padding-box;
       background-clip: padding-box;
       background: #009DE3;
       padding-top: 1px;
@@ -725,8 +667,12 @@ a.btn-cta {
     font-weight: 300;
     margin-bottom: 30px; }
   .contact-section .submit-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
 .contact-content {
   max-width: 600px;
@@ -737,7 +683,6 @@ a.btn-cta {
   .navbar-collapse {
     border-top: none;
     -webkit-box-shadow: none;
-    -moz-box-shadow: none;
     box-shadow: none;
     width: 100%;
     left: 0;

@@ -61,6 +61,13 @@
 					background-position: center;
 				}
 
+				.item-8 {
+					background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/m210Drone.jpg');
+					@include background-size(cover);
+					background-attachment: fixed;
+					background-position: center;
+				}
+
         .heading {
             font-size: 30px;
             line-height: 1.4;

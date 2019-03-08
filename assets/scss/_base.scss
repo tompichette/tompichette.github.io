@@ -66,6 +66,22 @@ a.btn-cta {
 	}
 }
 
+.btn-secondary {
+	background: darken($color-yellow, 5%);
+	border: 1px solid darken($color-yellow, 5%);
+	color: #fff;
+
+	&.active,
+	&.hover,
+	&:active,
+	&:focus,
+	&:hover {
+		background: darken($color-yellow, 15%);
+		color: #fff;
+		border: 1px solid darken($color-yellow, 15%);
+	}
+}
+
 .carousel-fade {
 	.carousel-inner {
 		.item {

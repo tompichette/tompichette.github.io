@@ -2,12 +2,12 @@
 <html lang="en">
 
 	<head>
-		<title>Captive Drone Technologies - Template</title>
+		<title>Captive Drone Technologies - Utilities</title>
 		<!-- Meta -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Captive Drone Technologies for commercial, energy, and roof inspections">
+		<meta name="description" content="Utility In-House Drone Programs | Captive Drone Technologies">
 		<meta name="author" content="Captive Drone Technologies">
 		<link rel="shortcut icon" href="CDTicon.png">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -69,7 +69,7 @@
 								<img src="assets\images\cdt\L400BLW.png" alt="Captive Drone Logo" class="img-fluid">
 								<h1 class="heading">Utility Program</h1>
 								<p class="intro">Providing training, equipment, software, and support for a safe and effective in-house drone program.</p>
-								<a class="btn btn-secondary btn-cta" href="techadvantage">Come visit us at TechAdvantage 2019!</a>
+								<a class="btn btn-primary btn-cta" data-toggle="modal" data-target=".exampleModal">Contact Us</a>
 							</div>
 							<!--//item-content-inner-->
 						</div>
@@ -218,12 +218,12 @@
 				<h2 class="section-title">Contact Us</h2>
 				<div class="form-group" id='crmWebToEntityForm'>
 					<META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
-					<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads3490434000001143001 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory3490434000001143001()' accept-charset='UTF-8'>
+					<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads3490434000001872023 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory3490434000001872023()' accept-charset='UTF-8'>
 
 						<!-- Do not remove this code. -->
 						<input type='text' style='display:none;' name='xnQsjsdp' value='6b43b5315eda0b436c0acfbc8b33655d93f2df2568aecd528c745d983869f1f1' />
 						<input type='hidden' name='zc_gad' id='zc_gad' value='' />
-						<input type='text' style='display:none;' name='xmIwtLD' value='2999cfad2e8ea6d4d4f79bce493a50953e4bf7580ce611e785d837bc4f2efa51' />
+						<input type='text' style='display:none;' name='xmIwtLD' value='2999cfad2e8ea6d4d4f79bce493a50951256d0acba2268f22201bb9debe1880c' />
 						<input type='text' style='display:none;' name='actionType' value='TGVhZHM=' />
 
 						<input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.captive-drone.com' />
@@ -232,11 +232,15 @@
 						<div class="row">
 							<div class="col-12 col-md-6">
 								<div class="form-group row">
-									<input type="text" class="form-control" id="Company" placeholder="Company Name" maxlength='100' name='Company'>
+									<input type="text" class="form-control" id="firstName" placeholder="First Name" maxlength='40' name='First Name' />
 								</div>
 
 								<div class="form-group row">
-									<input type="name" class="form-control" id="name" placeholder="First and Last Name" maxlength='80' name='Last Name'>
+									<input type="name" class="form-control" id="lastName" placeholder="Last Name" maxlength='80' name='Last Name' />
+								</div>
+
+								<div class="form-group row">
+									<input type="title" class="form-control" id="title" placeholder="Title" maxlength='100' name='Designation'>
 								</div>
 
 								<div class="form-group row">
@@ -245,6 +249,25 @@
 
 								<div class="form-group row">
 									<input type="phone" class="form-control" id="phone" placeholder="Phone Number" maxlength='30' name='Phone'>
+								</div>
+
+								<div class="form-group row">
+									<input type="company" class="form-control" id="company" placeholder="Company" maxlength='100' name='Company'>
+								</div>
+
+								<div class="form-group row">
+									<input type="website" class="form-control" id="website" placeholder="Website" maxlength='255' name='Website'>
+								</div>
+
+								<div class="form-group row">
+									<p>Comments:</p>
+									<textarea type="comments" class="form-control" id="comments" placeholder="Comments" maxlength='32000' name='Comments'>&nbsp;</textarea>
+								</div>
+
+								<div class="form-group row">
+									<img id='imgid' src='https://crm.zoho.com/crm/CaptchaServlet?formId=2999cfad2e8ea6d4d4f79bce493a50951256d0acba2268f22201bb9debe1880c&grpid=6b43b5315eda0b436c0acfbc8b33655d93f2df2568aecd528c745d983869f1f1'>
+									<input type="text" class="form-control captcha" id="captcha" placeholder="Enter the Characters" maxlength='80' name='enterdigest' />
+									<a href='javascript:;' onclick='reloadImg()'>Reload</a>
 								</div>
 
 								<div class="form-group row submit-button">
@@ -275,27 +298,31 @@
 						</button>
 					</div>
 					<div class="modal-body">
-						<div class="form-group p-4" id='crmWebToEntityForm'>
+						<div class="form-group" id='crmWebToEntityForm'>
 							<META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
-							<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads3490434000001143001 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory3490434000001143001()' accept-charset='UTF-8'>
+							<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads3490434000001872023 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory3490434000001872023()' accept-charset='UTF-8'>
 
 								<!-- Do not remove this code. -->
 								<input type='text' style='display:none;' name='xnQsjsdp' value='6b43b5315eda0b436c0acfbc8b33655d93f2df2568aecd528c745d983869f1f1' />
 								<input type='hidden' name='zc_gad' id='zc_gad' value='' />
-								<input type='text' style='display:none;' name='xmIwtLD' value='2999cfad2e8ea6d4d4f79bce493a50953e4bf7580ce611e785d837bc4f2efa51' />
+								<input type='text' style='display:none;' name='xmIwtLD' value='2999cfad2e8ea6d4d4f79bce493a50951256d0acba2268f22201bb9debe1880c' />
 								<input type='text' style='display:none;' name='actionType' value='TGVhZHM=' />
 
 								<input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.captive-drone.com' />
 								<!-- Do not remove this code. -->
 
 								<div class="row">
-									<div class="col-12 col-md-12">
+									<div class="col-12">
 										<div class="form-group row">
-											<input type="text" class="form-control" id="Company" placeholder="Company Name" maxlength='100' name='Company'>
+											<input type="text" class="form-control" id="firstName" placeholder="First Name" maxlength='40' name='First Name' />
 										</div>
 
 										<div class="form-group row">
-											<input type="name" class="form-control" id="name" placeholder="First and Last Name" maxlength='80' name='Last Name'>
+											<input type="name" class="form-control" id="lastName" placeholder="Last Name" maxlength='80' name='Last Name' />
+										</div>
+
+										<div class="form-group row">
+											<input type="title" class="form-control" id="title" placeholder="Title" maxlength='100' name='Designation'>
 										</div>
 
 										<div class="form-group row">
@@ -306,45 +333,63 @@
 											<input type="phone" class="form-control" id="phone" placeholder="Phone Number" maxlength='30' name='Phone'>
 										</div>
 
+										<div class="form-group row">
+											<input type="company" class="form-control" id="company" placeholder="Company" maxlength='100' name='Company'>
+										</div>
+
+										<div class="form-group row">
+											<input type="website" class="form-control" id="website" placeholder="Website" maxlength='255' name='Website'>
+										</div>
+
+
+
+
+										<div class="form-group row">
+											<p>Comments:</p>
+											<textarea type="comments" class="form-control" id="comments" placeholder="Comments" maxlength='32000' name='Comments'>&nbsp;</textarea>
+										</div>
+
+										<div class="form-group row">
+											<img id='imgid' src='https://crm.zoho.com/crm/CaptchaServlet?formId=2999cfad2e8ea6d4d4f79bce493a50951256d0acba2268f22201bb9debe1880c&grpid=6b43b5315eda0b436c0acfbc8b33655d93f2df2568aecd528c745d983869f1f1'>
+											<input type="text" class="form-control captcha" id="captcha" placeholder="Enter the Characters" maxlength='80' name='enterdigest' />
+											<a href='javascript:;' onclick='reloadImg()'>Reload</a>
+										</div>
+
 										<div class="form-group row submit-button">
 											<button type="submit" class="btn-lg btn-primary">Submit</button>
 										</div>
 									</div>
 								</div>
-							</form>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-		<!--//modal-->
+					<!--//modal-->
 
-		<!-- ******FOOTER****** -->
-		<footer class="footer">
-			<div class="container">
-				<div class="row text-center">
-					<div class="col">
-						<p>
-							Copyright &copy; 2019 - Captive Drone Technologies &nbsp;
-							<a class="medium" href="https://www.linkedin.com/company/captive-drone/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-							<a class="medium" href="https://www.facebook.com/captivedrone/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-							<a class="medium" href="https://www.instagram.com/captivedrone" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
+					<!-- ******FOOTER****** -->
+					<footer class="footer">
+						<div class="container">
+							<div class="row text-center">
+								<div class="col">
+									<p>
+										Copyright &copy; 2019 - Captive Drone Technologies &nbsp;
+										<a class="medium" href="https://www.linkedin.com/company/captive-drone/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+										<a class="medium" href="https://www.facebook.com/captivedrone/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+										<a class="medium" href="https://www.instagram.com/captivedrone" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</footer>
 
-		<!-- ******JAVASCRIPT****** -->
-		<script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
-		<script type="text/javascript" src="assets/js/main.js"></script>
-		<script type="text/javascript" src="assets/js/webform.js"></script>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script>
-			AOS.init();
-		</script>
+					<!-- ******JAVASCRIPT****** -->
+					<script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+					<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+					<script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+					<script type="text/javascript" src="assets/js/main.js"></script>
+					<script type="text/javascript" src="assets/js/webform.js"></script>
+					<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+					<script>
+						AOS.init();
+					</script>
 
 	</body>
 

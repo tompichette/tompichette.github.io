@@ -17,8 +17,13 @@
     }
 }
 
+.captcha {
+	width: 50%;
+}
 
-
+.required {
+	color: $color-orange;
+}
 .contact-content {
     max-width: 600px;
     margin: 0 auto;

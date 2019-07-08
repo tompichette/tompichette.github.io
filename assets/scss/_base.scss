@@ -1,5 +1,4 @@
 /* ======= Base ======= */
-
 body {
 	font-family: 'Open Sans', arial, sans-serif;
 	color: $text-color;
@@ -29,6 +28,21 @@ a {
 	&:focus {
 		text-decoration: none;
 	}
+}
+
+div.modal-body {
+	margin: 15px;
+
+	.form-group {
+		.row {
+				margin: auto;
+		}
+
+	}
+}
+.modal-content {
+	margin: auto;
+	width: 602px;
 }
 
 .btn,
@@ -135,7 +149,6 @@ a.btn-cta {
 	}
 }
 /* ======= Header ======= */
-
 .header {
 	position: fixed;
 	width: 100%;
@@ -146,6 +159,7 @@ a.btn-cta {
 	&.header-scrolled {
 		background: #fff;
 		@include box-shadow(0 0 4px rgba(0, 0, 0, 0.5));
+
 		#logo {
 			color: $color-primary;
 		}
@@ -310,7 +324,6 @@ a.btn-cta {
 	padding: 15px;
 }
 /* ======= Page Header ======= */
-
 .header-page {
 	position: fixed;
 	width: 100%;
@@ -327,6 +340,7 @@ a.btn-cta {
 	.logo {
 		padding-top: 12px;
 	}
+
 	#logo {
 		color: $color-primary;
 	}
@@ -382,7 +396,6 @@ a.btn-cta {
 	}
 }
 /* ====== Footer ====== */
-
 .footer {
 	background: darken($text-color, 15%);
 	color: rgba(256, 256, 256, 0.6);
@@ -405,7 +418,6 @@ a.btn-cta {
 	}
 }
 /* ====== Carousel ====== */
-
 .carousel {
 	.carousel-indicators li {
 		background-color: #999;

@@ -24,6 +24,15 @@ a {
   a:focus {
     text-decoration: none; }
 
+div.modal-body {
+  margin: 15px; }
+  div.modal-body .form-group .row {
+    margin: auto; }
+
+.modal-content {
+  margin: auto;
+  width: 602px; }
+
 .btn,
 a.btn {
   -webkit-transition: all 0.4s ease-in-out;
@@ -52,7 +61,17 @@ a.btn-cta {
     color: #fff;
     border: 1px solid #008bca; }
 
+.btn-secondary {
+  background: #f0ac2a;
+  border: 1px solid #f0ac2a;
+  color: #fff; }
+  .btn-secondary.active, .btn-secondary.hover, .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+    background: #d9930f;
+    color: #fff;
+    border: 1px solid #d9930f; }
+
 .carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
   transition-property: opacity; }
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right,
@@ -67,7 +86,8 @@ a.btn-cta {
 .carousel-fade .carousel-inner .next,
 .carousel-fade .carousel-inner .prev {
   left: 0;
-  transform: translate3d(0, 0, 0); }
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0); }
 .carousel-fade .carousel-control {
   z-index: 2; }
 
@@ -80,13 +100,7 @@ a.btn-cta {
     width: 11px;
     height: 11px;
     margin: 0 8px 0 0;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
     border-radius: 50%;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box; }
     .carousel-indicators li.active {
       background-color: #009DE3;
@@ -107,7 +121,6 @@ a.btn-cta {
   .header.header-scrolled {
     background: #fff;
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
     .header.header-scrolled #logo {
       color: #009DE3; }
@@ -120,13 +133,7 @@ a.btn-cta {
         background: #009DE3;
         width: 40px;
         height: 40px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
         border-radius: 50%;
-        -moz-background-clip: padding;
-        -webkit-background-clip: padding-box;
         background-clip: padding-box;
         text-align: center; }
       .header.header-scrolled .logo .logo-icon {
@@ -152,7 +159,7 @@ a.btn-cta {
     margin: 0;
     display: inline-block;
     float: left;
-    font-size: 26px;
+    font-size: 24px;
     padding-top: 15px; }
     .header .logo .logo-icon-wrapper {
       margin-right: 3px;
@@ -186,13 +193,7 @@ a.btn-cta {
       background-color: #fff;
       height: 3px;
       width: 22px;
-      -webkit-border-radius: 1px;
-      -moz-border-radius: 1px;
-      -ms-border-radius: 1px;
-      -o-border-radius: 1px;
       border-radius: 1px;
-      -moz-background-clip: padding;
-      -webkit-background-clip: padding-box;
       background-clip: padding-box; }
       .main-nav .navbar-toggler .icon-bar + .icon-bar {
         margin-top: 4px; }
@@ -240,7 +241,6 @@ a.btn-cta {
   -o-transition: none;
   background: #fff;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
   .header-page a {
     color: #494d55; }
@@ -339,22 +339,38 @@ a.btn-cta {
     background-position: center center; }
   .hero-carousel .carousel-inner .item-1 {
     background-image: url("../images/cdt/droneTrees.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover; }
   .hero-carousel .carousel-inner .item-2 {
     background-image: url("../images/cdt/droneRoof.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover; }
   .hero-carousel .carousel-inner .item-3 {
     background-image: url("../images/cdt/droneBelow.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover; }
+  .hero-carousel .carousel-inner .item-9 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("../images/cdt/utilitiesBanner.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/cdt/utilitiesBanner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; }
+    @media (max-width: 767.98px) {
+      .hero-carousel .carousel-inner .item-9 {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("../images/cdt/utilitiesBanner.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/cdt/utilitiesBanner.jpg");
+        background-size: auto 100%;
+        background-attachment: fixed;
+        background-position: center; } }
+  .hero-carousel .carousel-inner .item-8 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/cdt/m210Drone2.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cdt/m210Drone2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; }
+  .hero-carousel .carousel-inner .item-7 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/cdt/aerialRoofSingle.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cdt/aerialRoofSingle.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; }
   .hero-carousel .carousel-inner .heading {
     font-size: 30px;
     line-height: 1.4;
@@ -426,13 +442,7 @@ a.btn-cta {
     margin-bottom: 0;
     font-size: 14px;
     min-height: 100px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
     border-radius: 4px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     position: relative;
     padding: 15px; }
@@ -450,9 +460,6 @@ a.btn-cta {
 /* ======= process Section ======= */
 .process-section {
   background: #009DE3;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   padding-top: 90px;
   padding-bottom: 90px; }
@@ -478,13 +485,7 @@ a.btn-cta {
     border-left: none;
     margin-bottom: 0;
     font-size: 14px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
     border-radius: 4px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     position: relative;
     padding: 30px; }
@@ -556,13 +557,7 @@ a.btn-cta {
   .pricing-wrapper .item-inner {
     color: #fff;
     padding: 30px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
     border-radius: 8px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     background: #009DE3;
     height: 100%;
@@ -621,8 +616,8 @@ a.btn-cta {
     max-width: 760px;
     margin: 0 auto 30px; }
   .cdt-section .story {
-    margin: 0 auto 30px;
-    max-width: 800px; }
+    margin: 0 auto 0px;
+    max-width: 100%; }
   .cdt-section .profile-image {
     width: 120px;
     height: 120px;
@@ -633,16 +628,12 @@ a.btn-cta {
   .cdt-section .item-inner {
     padding: 30px;
     background: #fff;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
     border-radius: 8px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     height: 100%;
     position: relative; }
+  .cdt-section .img-inner {
+    height: 100%; }
   .cdt-section .member-name {
     font-size: 18px;
     font-weight: 700;
@@ -659,13 +650,7 @@ a.btn-cta {
       width: 32px;
       height: 32px;
       font-size: 18px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      -o-border-radius: 50%;
       border-radius: 50%;
-      -moz-background-clip: padding;
-      -webkit-background-clip: padding-box;
       background-clip: padding-box;
       background: #009DE3;
       padding-top: 1px;
@@ -700,6 +685,28 @@ a.btn-cta {
           background: #000; }
   .cdt-section .member-desc {
     color: #616670; }
+  .cdt-section .fill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden; }
+  .cdt-section .fill img {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%; }
+
+.white-background {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 /* ======= Contact Section ======= */
 .contact-section {
@@ -708,25 +715,123 @@ a.btn-cta {
   background: #494d55 url("../images/map.png") no-repeat center center;
   color: #fff; }
   .contact-section .section-title {
-    margin: 0;
-    margin-bottom: 15px;
+    margin: 0 0 15px;
     font-size: 36px;
     font-weight: 300;
     margin-bottom: 30px; }
   .contact-section .submit-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+.captcha {
+  width: 50%; }
+
+.required {
+  color: #e34600; }
 
 .contact-content {
   max-width: 600px;
-  margin: 0 auto;
-  margin-bottom: 60px; }
+  margin: 0 auto 60px; }
+
+#contactForm {
+  margin: auto; }
+
+#fs-frm button,
+#fs-frm fieldset,
+#fs-frm input,
+#fs-frm label,
+#fs-frm optgroup,
+#fs-frm select,
+#fs-frm textarea {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+#fs-frm label,
+#fs-frm legend {
+  font-size: 0.825em;
+  margin-bottom: 0.5em; }
+
+/* border, padding, margin, width */
+#fs-frm button,
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.75em 1em;
+  margin-bottom: 1.5em; }
+
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px; }
+
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%; }
+
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"],
+#fs-frm button {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button; }
+
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus,
+#fs-frm button:focus {
+  outline: none; }
+
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0; }
+
+#fs-frm button,
+#fs-frm select {
+  text-transform: none; }
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline; }
+
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%; }
+
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%; }
+
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%; }
 
 @media (max-width: 767.98px) {
   .navbar-collapse {
     border-top: none;
     -webkit-box-shadow: none;
-    -moz-box-shadow: none;
     box-shadow: none;
     width: 100%;
     left: 0;

@@ -15,6 +15,13 @@
 		color: $text-grey;
 		font-size: 17px;
 	}
+	a {
+		color: $smoky-white;
+	}
+	a:hover {
+		cursor: pointer;
+		text-decoration: none;
+	}
 }
 
 .callout-dark:hover {

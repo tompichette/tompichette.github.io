@@ -1,2 +1,2 @@
-# tompichette.github.io
-CDT Public Site
+# cdtprod
+Copy of Captive Drone Technologies' production website

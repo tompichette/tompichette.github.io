@@ -347,15 +347,15 @@ a.btn-cta {
     background-image: url("../images/cdt/droneBelow.jpg");
     background-size: cover; }
   .hero-carousel .carousel-inner .item-9 {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("../images/cdt/utilitiesBanner.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/cdt/utilitiesBanner.jpg");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("../images/cdt/utilitiesbanner.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/cdt/utilitiesbanner.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: center; }
     @media (max-width: 767.98px) {
       .hero-carousel .carousel-inner .item-9 {
-        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("../images/cdt/utilitiesBanner.jpg");
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/cdt/utilitiesBanner.jpg");
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("../images/cdt/utilitiesbanner.png");
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/cdt/utilitiesbanner.png");
         background-size: auto 100%;
         background-attachment: fixed;
         background-position: center; } }

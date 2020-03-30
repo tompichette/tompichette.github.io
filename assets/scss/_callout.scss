@@ -29,3 +29,34 @@
 	cursor:pointer;
 	@include transition (all 0.4s ease-in-out);
 }
+
+.callout-light {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: $smoky-white;
+	background-color: $color-primary;
+	h1,
+	h2,
+	h3,
+	h4 {
+		font-weight: 300;
+		line-height: 1.4;
+	}
+	p {
+		color: $text-grey;
+		font-size: 17px;
+	}
+	a {
+		color: $smoky-white;
+	}
+	a:hover {
+		cursor: pointer;
+		text-decoration: none;
+	}
+}
+
+.callout-light:hover {
+	background-color: darken($color-primary, 15%);
+	cursor:pointer;
+	@include transition (all 0.4s ease-in-out);
+}

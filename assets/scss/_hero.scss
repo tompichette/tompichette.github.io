@@ -36,15 +36,15 @@
             background-position: center center;
         }
         .item-1 {
-            background-image: url('../images/cdt/m210Ground.png');
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/m210Ground.png');
             @include background-size(cover);
         }
         .item-2 {
-            background-image: url('../images/cdt/m210Line.png');
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/m210Line.png');
             @include background-size(cover);
         }
         .item-3 {
-            background-image: url('../images/cdt/m210AndWorkers.png');
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/m210AndWorkers.png');
             @include background-size(cover);
         }
         .item-4 {

@@ -36,15 +36,15 @@
             background-position: center center;
         }
         .item-1 {
-            background-image: url('../images/cdt/droneTrees.jpg');
+            background-image: url('../images/cdt/m210Ground.png');
             @include background-size(cover);
         }
         .item-2 {
-            background-image: url('../images/cdt/droneRoof.jpg');
+            background-image: url('../images/cdt/m210Line.png');
             @include background-size(cover);
         }
         .item-3 {
-            background-image: url('../images/cdt/droneBelow.jpg');
+            background-image: url('../images/cdt/m210AndWorkers.png');
             @include background-size(cover);
         }
         .item-4 {

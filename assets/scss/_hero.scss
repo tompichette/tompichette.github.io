@@ -51,33 +51,37 @@
             background-image: url('../images/cdt/manAtDesk.png');
             @include background-size(cover);
         }
-
-				.item-9 {
-					@media (max-width: 767.98px) {
-						background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ), url('../images/cdt/utilitiesBanner.png');
-						@include background-size(auto 100%);
-						background-attachment: fixed;
-						background-position: center;
-					}
-					background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ), url('../images/cdt/utilitiesBanner.png');
-					@include background-size(cover);
-					background-attachment: fixed;
-					background-position: center;
-				}
-
+        .item-6 {
+          background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/SandR.jpg');
+          @include background-size(cover);
+          background-attachment: fixed;
+          background-position: center;
+        }
+        .item-7 {
+          background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/aerialRoofSingle.jpg');
+          @include background-size(cover);
+          background-attachment: fixed;
+          background-position: center;
+        }
 				.item-8 {
 					background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/m210Drone2.png');
 					@include background-size(cover);
 					background-attachment: fixed;
 					background-position: center;
 				}
+        .item-9 {
+          @media (max-width: 767.98px) {
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ), url('../images/cdt/utilitiesBanner.png');
+            @include background-size(auto 100%);
+            background-attachment: fixed;
+            background-position: center;
+          }
+          background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ), url('../images/cdt/utilitiesBanner.png');
+          @include background-size(cover);
+          background-attachment: fixed;
+          background-position: center;
+        }
 
-				.item-7 {
-					background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/aerialRoofSingle.jpg');
-					@include background-size(cover);
-					background-attachment: fixed;
-					background-position: center;
-				}
 
         .heading {
             font-size: 30px;

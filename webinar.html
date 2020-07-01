@@ -212,15 +212,21 @@
 							<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
 							<label for="email-address" class="white-text">Email Address</label>
 							<input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+							<label for="company" class="white-text">Company Name</label>
+							<textarea rows="1" name="message" id="message" placeholder="Enter your Company Name here" required=""></textarea>
 							<label for="newsletter" class="white-text">I would like to sign up for the Newsletter</label>
 							<select name="newsletter" required="">
-								<option value="Choose One" selected="" disabled="">Choose</option>
+								<option value="Choose an option" selected="" disabled="">Choose an option</option>
 								<option value="Yes">Yes</option>
 								<option value="No">No</option>
 							</select>
-							<label for="message" class="white-text">Message</label>
-							<textarea rows="5" name="message" id="message" placeholder="Write your message here." required=""></textarea>
-							<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+							<label for="webinar" class="white-text">I would like to attend a webinar</label>
+							<select name="webinar" required="">
+								<option value="Choose a Time and Date" selected="" disabled="">Choose an option</option>
+								<option value="July 16th">July 16th 1pm EDT</option>
+								<option value="July 30th">July 30th 1pm EDT</option>
+							</select>
+							<input type="hidden" name="_subject" id="email-subject" value="Webinar Contact Form Submission">
 						</fieldset>
 						<input type="submit" value="Submit">
 					</form>
@@ -257,33 +263,36 @@
 												<label for="full-name" class="col-4 text-center">Full Name</label>
 												<input type="text" name="name" id="full-name" placeholder="First and Last" required="" class="col-8">
 											</div>
-
 											<div class="form-group row">
 												<label for="email-address" class="col-4 text-center">Email Address</label>
 												<input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="" class="col-8">
 											</div>
-
+											<div class="form-group row">
+												<label for="company" class="white-text">Company Name</label>
+												<textarea rows="1" name="message" id="message" placeholder="Enter your Company Name here" required=""></textarea>
+											</div>
 											<div class="form-group row">
 												<fieldset id="fs-frm-selects">
 													<label for="newsletter">I would like to sign up for the Newsletter</label>
 													<select name="newsletter" id="newsletter" required="">
-														<option value="Choose One" selected="" disabled="">Choose</option>
+														<option value="Choose One" selected="" disabled="">Choose an option</option>
 														<option value="Yes">Yes</option>
 														<option value="No">No</option>
 													</select>
 											</div>
-
 											<div class="form-group row">
-												<label for="message" class="col-4 text-center">Message</label>
-												<textarea rows="5" name="message" id="message" placeholder="Write your message here." required="" class="col-8"></textarea>
-
+												<label for="webinar">I would like to attend a webinar</label>
+												<select name="webinar" required="">
+													<option value="Choose a Time and Date" selected="" disabled="">Choose an option</option>
+													<option value="July 16th">July 16th 1pm EDT</option>
+													<option value="July 30th">July 30th 1pm EDT</option>
+												</select>
 											</div>
 										</fieldset>
 										<div class="form-group row">
 											<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission for Webinar Signup">
 											<input type="submit" value="Submit" class="btn-lg btn-primary text-center submit">
 										</div>
-
 									</div>
 								</div>
 							</form>

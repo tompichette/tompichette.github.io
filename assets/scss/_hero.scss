@@ -36,16 +36,19 @@
             background-position: center center;
         }
         .item-1 {
-            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/m210Ground.png');
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/training1.jpg');
             @include background-size(cover);
+            background-position: center;
         }
         .item-2 {
             background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/m210Line.png');
             @include background-size(cover);
+            background-position: center;
         }
         .item-3 {
             background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/m210AndWorkers.png');
             @include background-size(cover);
+            background-position: center;
         }
         .item-4 {
             background-image: url('../images/cdt/manAtDesk.png');
@@ -80,6 +83,11 @@
           @include background-size(cover);
           background-attachment: fixed;
           background-position: center;
+        }
+        .item-10 {
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/cdt/training.jpg');
+            @include background-size(cover);
+            background-position: center;
         }
 
 

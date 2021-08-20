@@ -55,6 +55,170 @@
 	.img-inner {
 		height: 100%;
 	}
+	.btn-inner {
+    margin:0 auto;
+    display:block;
+}
+
+	.member-name {
+		font-size: 18px;
+		font-weight: 700;
+		color: $color-primary;
+	}
+
+	.member-title {
+		font-size: 16px;
+		margin-top: 0;
+		margin-bottom: 15px;
+		color: $text-color-secondary;
+	}
+
+	.social {
+		margin-bottom: 30px;
+
+		a {
+			display: inline-block;
+			width: 32px;
+			height: 32px;
+			font-size: 18px;
+			@include border-radius(50%);
+			background: $color-primary;
+			padding-top: 1px;
+			color: #fff;
+
+			&.google {
+				background: $google;
+
+				&:hover {
+					background: darken($google, 5%);
+				}
+			}
+
+			&.twitter {
+				background: $twitter;
+
+				&:hover {
+					background: darken($twitter, 5%);
+				}
+			}
+
+			&.facebook {
+				background: $facebook;
+
+				&:hover {
+					background: darken($facebook, 5%);
+				}
+			}
+
+			&.linkedin {
+				background: $linkedin;
+
+				&:hover {
+					background: darken($linkedin, 5%);
+				}
+			}
+
+			&.github {
+				background: $github;
+
+				&:hover {
+					background: darken($github, 5%);
+				}
+			}
+
+			&.dribbble {
+				background: $dribbble;
+
+				&:hover {
+					background: darken($dribbble, 5%);
+				}
+			}
+
+			&.medium {
+				background: lighten(#000, 10%);
+
+				&:hover {
+					background: #000;
+				}
+			}
+		}
+	}
+
+	.member-desc {
+		color: $text-color-secondary;
+	}
+	.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+}
+
+.cdt-section-tight {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	background: $smoky-white;
+
+	.section-title {
+		margin: 0 0 15px;
+		font-size: 36px;
+		font-weight: 300;
+	}
+
+	.section-reviews {
+		font-size: 20px;
+		font-style: italic;
+	}
+
+	.section-subtitle {
+		margin: 0 0 15px;
+		font-size: 28px;
+		font-weight: 300;
+	}
+
+	.intro {
+		color: $text-grey;
+		font-size: 16px;
+		max-width: 760px;
+		margin: 0 auto 30px;
+	}
+
+	.story {
+		margin: 0 auto 0px;
+		max-width: 100%;
+	}
+
+	.profile-image {
+		width: 120px;
+		height: 120px;
+		border-radius: 50%;
+	}
+
+	.cdt-wrapper {
+		max-width: 1200px;
+		margin: 0 auto 20px;
+	}
+
+	.item-inner {
+		padding: 30px;
+		background: #fff;
+		@include border-radius(8px);
+		height: 100%;
+		position: relative;
+	}
+	.img-inner {
+		height: 100%;
+	}
+	.btn-inner {
+    margin:0 auto;
+    display:block;
+}
 
 	.member-name {
 		font-size: 18px;

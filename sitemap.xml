@@ -8,35 +8,39 @@
 
 
 <url>
-  <loc>http://captive-drone.com/</loc>
-  <lastmod>2019-03-08T01:12:28+00:00</lastmod>
+  <loc>https://captive-drone.com/</loc>
+  <lastmod>2021-08-23T14:30:20+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://captive-drone.com/utilities.html</loc>
-  <lastmod>2019-03-08T01:12:28+00:00</lastmod>
+  <loc>https://captive-drone.com/training.html</loc>
+  <lastmod>2021-08-23T14:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://captive-drone.com/index.html</loc>
-  <lastmod>2019-03-08T01:12:28+00:00</lastmod>
+  <loc>https://captive-drone.com/utilities.html</loc>
+  <lastmod>2021-08-23T14:30:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://captive-drone.com/resources.html</loc>
-  <lastmod>2019-03-08T01:12:28+00:00</lastmod>
+  <loc>https://captive-drone.com/public-safety.html</loc>
+  <lastmod>2021-08-23T14:30:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://captive-drone.com/resources.html</loc>
+  <lastmod>2021-08-23T14:30:21+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://captive-drone.com/utilities</loc>
-  <lastmod>2019-03-08T01:12:28+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://captive-drone.com/webinar.html</loc>
+  <lastmod>2021-08-23T14:30:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://captive-drone.com/resources</loc>
-  <lastmod>2019-03-08T01:12:28+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://captive-drone.com/index.html</loc>
+  <lastmod>2021-08-23T14:30:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
